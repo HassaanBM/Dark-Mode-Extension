@@ -1,0 +1,25 @@
+{
+    "name": "Dark Mode for Google Sheets",
+    "version": "0.0.1",
+    "description": "Transform your Google Sheets view into Dark Mode for a more comfortable working experience at night.",
+    "manifest_version": 3,
+    "author": "Hassaan_BM",
+    "icons": {
+        "128": "./icons/128.png",
+        "48": "./icons/48.png",
+        "32": "./icons/32.png",
+        "16": "./icons/16.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": "./icons/16.png",
+        "default_popup": "index.html",
+        "default_title": "Dark Mode for Google Sheets"
+    }
+}

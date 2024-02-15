@@ -1,0 +1,3 @@
+div#docs-chrome, div#docs-chrome + div + div#docs-editor-container, div#docs-branding-logo, .docs-titlebar-buttons > *:nth-child(n+6) {
+    filter: invert(1);
+}
